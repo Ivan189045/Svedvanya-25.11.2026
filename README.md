@@ -1,1 +1,40 @@
-<img width="299" height="486" alt="image" src="https://github.com/user-attachments/assets/2dceff2c-0c45-4fc6-89d8-dd014d5b5989" />
+## Приложение «Приём заявок»
+
+
+приложение для приёма заявок с лимитом 10 штук, сменой статуса и счётчиком закрытых заявок.
+ 
+ <img width="299" height="486" alt="image" src="https://github.com/user-attachments/assets/78d7ee21-36b9-4694-b033-2edf1eaecc07" />
+
+## что умеет
+
+- кнопка «принять заявку» увеличивает счётчик на 1
+- лимит 10 заявок: после 10-й кнопка блокируется, появляется надпись «лимит: 10»
+- 
+  <img width="147" height="35" alt="image" src="https://github.com/user-attachments/assets/5bb75abc-a253-448f-a1c3-1da673ff54f8" />
+
+- кнопка «сбросить» обнуляет счётчик и дату, кнопка «принять заявку» снова работает
+- кнопка «сменить статус» меняет статус по кругу: новая > в работе > готово > новая
+- при статусе «готово» увеличивается счётчик закрытых заявок
+- после приёма заявки показывается дата в формате дд.мм.гггг чч:мм
+<img width="145" height="14" alt="image" src="https://github.com/user-attachments/assets/24c94592-f1fb-499a-83ce-29616c80ecf2" />
+
+- в заголовке окна и внизу отображается версия программы
+  <img width="103" height="28" alt="image" src="https://github.com/user-attachments/assets/df5af424-0c66-4cdf-8b9e-27d8140574d4" />
+
+- кнопки крупные, текст читается
+
+## требования
+
+- python 3.7 или новее
+- файл logo.png в той же папке, что и программа
+
+## как запустить
+
+1. убедитесь, что установлен python 3.7+
+2. положите файл logo.png рядом с app_v03_для_тестирования.py
+3. откройте терминал в папке с программой <img width="220" height="44" alt="image" src="https://github.com/user-attachments/assets/edc785e0-6376-40c3-9695-a91e4e895051" />
+
+4. откройте терминал в папке с программой 
+<img width="672" height="921" alt="image" src="https://github.com/user-attachments/assets/ae0c7df6-9ae4-4b76-a0d9-2144867d4601" />
+
+5. запустите программу  
